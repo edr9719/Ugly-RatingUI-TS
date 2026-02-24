@@ -1,0 +1,12 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  color: gold;
+  padding: 150px;
+  z-index: 1;
+  position: absolute;
+  border-radius: 15px;
+}

@@ -1,0 +1,38 @@
+h1 {
+  display: inline-block;
+}
+
+.rating-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  background-color: brown;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  gap: 10px;
+  color: gray;
+}
+
+.star.active {
+  color: gold;
+}
+
+.feedback {
+  display: flex;
+  justify-content: center;
+  color: gold;
+}
