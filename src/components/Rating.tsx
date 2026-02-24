@@ -23,7 +23,7 @@ const Rating = ({
         <div>
           <h1>{heading}</h1>{' '}
           <img
-            src='/public/middle-finger-svgrepo-com.svg'
+            src='/middle-finger-svgrepo-com.svg'
             alt='Middle Finger'
             height={60}
           />
